@@ -1,0 +1,18 @@
+# OCI authentication
+
+tenancy_ocid = "ocid1.tenancy.oc1..aaaaaaaa45o7xte5wt3zvza"
+compartment_ocid = "ocid1.compartment.oc1..aaaaaaxvttuydcwgskw2tq"
+fingerprint = "a3:d7:2c:ad:d0:5b"
+private_key_path = "./mykeys/oracle-k8s.pem"
+user_ocid = "ocid1.user.oc1..aaaaa3sxgqxoovggzx7a"
+region = "eu-frankfurt-1"
+
+# Compute Instance Configurations
+instance_display_name = "sample_instance"
+# Source Image OCIDs are available at https://docs.cloud.oracle.com/iaas/images/
+source_ocid = "ocid1.image.oc1.phx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+subnet_ocid = ["ocid1.subnet.oc1.phx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"]
+ssh_authorized_keys = "./mykeys/oracle-k8s-public.pem"
+
+# Storage Volume Configurations
+block_storage_sizes_in_gbs = [60, 70]
